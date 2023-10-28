@@ -1,0 +1,113 @@
+.flexy{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 65px;
+    right: 0;
+    left: 0;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    z-index: 1;
+}
+body{
+    padding-top: 65px;
+}
+.left-section{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    margin-right: 180px;
+    margin-left: 8px;
+    padding-bottom: 2px;
+
+}
+.hamburger{
+    height:24px ;
+    margin-right: 24px;
+}
+.logo{
+    height: 20px;
+    cursor: pointer;
+}
+.text-field::placeholder{
+    padding-left: 5px;
+    height: 30px;
+    font-weight: 100;
+}
+.middle-section{
+    margin-left: 10px;
+    display: flex;
+    flex: 1fr;
+    width: 100%;
+}
+.text-field{
+    height: 35.5px;
+    width: 530px;
+    font-size: medium;
+    font-family: Roboto,Arial;
+    box-shadow: inset lightblue;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-width: 1px;
+    border-color: rgb(128, 128, 128);
+    padding-left: 10px;
+}
+.search{
+    height: 38.5px;
+    width: 60px;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.voice{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.upload{
+    height: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.Apps{
+    height: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.notifications{
+    height: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}

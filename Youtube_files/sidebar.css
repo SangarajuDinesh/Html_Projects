@@ -1,0 +1,31 @@
+.sidebar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+    row-gap: 20px;
+    position: fixed;
+    top: 65px;
+    width: 80px;
+    bottom: 0;
+    left: 0;
+}
+.icon-img{
+    width: 23.5px;
+    height: 23.5px
+}
+.icon-p{
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    font-family: Roboto,Arial;
+    margin-bottom: 0;
+}
+
+body{
+    padding-left: 80px;
+}
+.side{
+    text-align: center;
+}
